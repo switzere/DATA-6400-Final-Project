@@ -1,0 +1,29 @@
+Pokemon Showdown Battle Assistant
+
+Problem Statement:
+Pokemon is a complex game in which knowledge of information can be critial to winning.
+
+Background:
+Pokemon Showdown is an online pokemon battle simulator. There is often a lot of predicting and analyzing in Pokemon, where eyeballing calculations can change the result from a win to a loss. For this project I will be focusing on the Random Battle Format. This is because normal formats let you customize your pokemon, while random battles have set stats and a movepool of 4-6 moves with given probabilities with all of that information public. So while there are less variables to deal with there are still plenty of decisions to be made. 
+
+Discussion
+A battle assistant suggesting moves is essentially a bot. This idea isn't totally original, there are plenty of AI Pokemon Showdown AI Bots made. What will make this one different is what it focuses on. In my references you will find a bot for generation 4 random battles and the other one is general for all single format modes(which includes random battles) up to generation 8. I want to focus on the current generation which is generation 9, which introduces more options. To add on to that I want to focus specifically on random battles which there is more information available about the opponents team.
+
+To reduce the amount of setup I need to get a bot functional and being able to understand what is going on I am hoping to use pmariglia/showdown as a framework as it already has everything for a bot setup which lets me focus on the AI part of the assignment.
+
+References:
+https://github.com/taylorhansen/pokemonshowdown-ai
+https://github.com/pmariglia/showdown
+
+Sketch:
+
+How I will measure success:
+My goal for this is to make multiple algorithms to determine what the suggestions is.
+For measuring my success if the bot could beat me consistently I would consider that a large success. However I am doubtful that this will happen.
+So my second measure of success is that it passes my eye test, which would be me analyzing the move and determining if it is a reasonable move. Since I am making multiple algorithms I would like to see they act slightly different.
+
+Expected Findings:
+I expect that all algorithms will be very similar and that the moves it chooses will be very predictable. This isn't ideal and I am hoping that with extra information of the other team it can find interesting moves that I would not have thought of.
+
+Stretch Goal:
+If for some reason I find this was much easier than anticipated I would like to try a machine learning bot.

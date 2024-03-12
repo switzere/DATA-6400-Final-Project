@@ -1,0 +1,7 @@
+server
+\pokemon-showdown
+node pokemon-showdown
+
+bot
+\showdown
+python run.py
