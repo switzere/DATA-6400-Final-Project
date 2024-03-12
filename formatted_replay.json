@@ -1,0 +1,1612 @@
+{
+    "p2_start_pokemon": "Illumise",
+    "p1_start_pokemon": "Latias",
+    "turns": [
+        {
+            "events": [
+                {
+                    "timestamp": "1707748184",
+                    "order": 1
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Illumise",
+                        "action": "move",
+                        "move": "Thunder Wave",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Yanmega"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "status",
+                    "player": "p1a",
+                    "pokemon": "Yanmega",
+                    "status": "par",
+                    "order": 3
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Yanmega",
+                        "action": "move",
+                        "move": "Giga Drain",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Illumise"
+                    },
+                    "order": 4
+                },
+                {
+                    "action": "resisted",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "order": 5
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "damage": "185/269",
+                    "order": 6
+                },
+                {
+                    "action": "upkeep",
+                    "order": 7
+                }
+            ],
+            "turnNum": "1"
+        },
+        {
+            "turnNum": "2",
+            "events": [
+                {
+                    "timestamp": "1707748192",
+                    "order": 1
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Illumise",
+                        "action": "move",
+                        "move": "Roost",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Illumise"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "heal",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "heal": "269/269",
+                    "order": 3
+                },
+                {
+                    "action": "singleTurn",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "move": "move: Roost",
+                    "order": 4
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Yanmega",
+                        "action": "move",
+                        "move": "Giga Drain",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Illumise"
+                    },
+                    "order": 5
+                },
+                {
+                    "action": "resisted",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "order": 6
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "damage": "183/269",
+                    "order": 7
+                },
+                {
+                    "action": "upkeep",
+                    "order": 8
+                }
+            ]
+        },
+        {
+            "turnNum": "3",
+            "events": [
+                {
+                    "timestamp": "1707748204",
+                    "order": 1
+                },
+                {
+                    "action": "switch",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "order": 2
+                },
+                {
+                    "action": "ability",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "ability": "Intimidate",
+                    "order": 3
+                },
+                {
+                    "action": "unboost",
+                    "player": "p1a",
+                    "pokemon": "Yanmega",
+                    "unboost": "atk",
+                    "order": 4
+                },
+                {
+                    "action": "terastallize",
+                    "player": "p1a",
+                    "pokemon": "Yanmega",
+                    "move": "Bug",
+                    "order": 5
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Yanmega",
+                        "action": "move",
+                        "move": "Giga Drain",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Arbok"
+                    },
+                    "order": 6
+                },
+                {
+                    "action": "resisted",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "order": 7
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "damage": "150/246",
+                    "order": 8
+                },
+                {
+                    "action": "upkeep",
+                    "order": 9
+                }
+            ]
+        },
+        {
+            "turnNum": "4",
+            "events": [
+                {
+                    "timestamp": "1707748217",
+                    "order": 1
+                },
+                {
+                    "action": "switch",
+                    "player": "p1a",
+                    "pokemon": "Klefki",
+                    "order": 2
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Arbok",
+                        "action": "move",
+                        "move": "Gunk Shot",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Klefki"
+                    },
+                    "order": 3
+                },
+                {
+                    "action": "other",
+                    "other": "p1a: Klefki",
+                    "order": 4
+                },
+                {
+                    "action": "upkeep",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "turnNum": "5",
+            "events": [
+                {
+                    "timestamp": "1707748228",
+                    "order": 1
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Arbok",
+                        "action": "move",
+                        "move": "Earthquake",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Klefki"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "other",
+                    "other": "p1a: Klefki",
+                    "order": 3
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Klefki",
+                    "damage": "28/233",
+                    "order": 4
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "damage": "126/246",
+                    "order": 5
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Klefki",
+                        "action": "move",
+                        "move": "Dazzling Gleam",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Arbok"
+                    },
+                    "order": 6
+                },
+                {
+                    "action": "resisted",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "order": 7
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "damage": "87/246",
+                    "order": 8
+                },
+                {
+                    "action": "heal",
+                    "player": "p1a",
+                    "pokemon": "Klefki",
+                    "heal": "42/233",
+                    "order": 9
+                },
+                {
+                    "action": "upkeep",
+                    "order": 10
+                }
+            ]
+        },
+        {
+            "turnNum": "6",
+            "events": [
+                {
+                    "timestamp": "1707748256",
+                    "order": 1
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Klefki",
+                        "action": "move",
+                        "move": "Spikes",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Arbok"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "other",
+                    "other": "p2: GODSAMYA",
+                    "order": 3
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Arbok",
+                        "action": "move",
+                        "move": "Earthquake",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Klefki"
+                    },
+                    "order": 4
+                },
+                {
+                    "action": "other",
+                    "other": "p1a: Klefki",
+                    "order": 5
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Klefki",
+                    "damage": "0 fnt",
+                    "order": 6
+                },
+                {
+                    "action": "faint",
+                    "player": "p1a",
+                    "pokemon": "Klefki",
+                    "order": 7
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "damage": "63/246",
+                    "order": 8
+                },
+                {
+                    "action": "upkeep",
+                    "order": 9
+                },
+                {
+                    "timestamp": "1707748268",
+                    "order": 10
+                },
+                {
+                    "action": "switch",
+                    "player": "p1a",
+                    "pokemon": "Yanmega",
+                    "order": 11
+                }
+            ]
+        },
+        {
+            "turnNum": "7",
+            "events": [
+                {
+                    "timestamp": "1707748278",
+                    "order": 1
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Arbok",
+                        "action": "move",
+                        "move": "Toxic Spikes",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Yanmega"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "other",
+                    "other": "p1: AdityaGOAT",
+                    "order": 3
+                },
+                {
+                    "action": "other",
+                    "other": "p1a: Yanmega",
+                    "order": 4
+                },
+                {
+                    "action": "upkeep",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "turnNum": "8",
+            "events": [
+                {
+                    "timestamp": "1707748292",
+                    "order": 1
+                },
+                {
+                    "action": "switch",
+                    "player": "p2a",
+                    "pokemon": "Vespiquen",
+                    "order": 2
+                },
+                {
+                    "action": "ability",
+                    "player": "p2a",
+                    "pokemon": "Vespiquen",
+                    "ability": "Pressure",
+                    "order": 3
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Yanmega",
+                        "action": "move",
+                        "move": "Bug Buzz",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Vespiquen"
+                    },
+                    "order": 4
+                },
+                {
+                    "action": "resisted",
+                    "player": "p2a",
+                    "pokemon": "Vespiquen",
+                    "order": 5
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Vespiquen",
+                    "damage": "148/296",
+                    "order": 6
+                },
+                {
+                    "action": "upkeep",
+                    "order": 7
+                }
+            ]
+        },
+        {
+            "turnNum": "9",
+            "events": [
+                {
+                    "timestamp": "1707748306",
+                    "order": 1
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Vespiquen",
+                        "action": "move",
+                        "move": "Roost",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Vespiquen"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "heal",
+                    "player": "p2a",
+                    "pokemon": "Vespiquen",
+                    "heal": "296/296",
+                    "order": 3
+                },
+                {
+                    "action": "singleTurn",
+                    "player": "p2a",
+                    "pokemon": "Vespiquen",
+                    "move": "move: Roost",
+                    "order": 4
+                },
+                {
+                    "action": "other",
+                    "other": "p1a: Yanmega",
+                    "order": 5
+                },
+                {
+                    "action": "upkeep",
+                    "order": 6
+                }
+            ]
+        },
+        {
+            "turnNum": "10",
+            "events": [
+                {
+                    "timestamp": "1707748315",
+                    "order": 1
+                },
+                {
+                    "action": "switch",
+                    "player": "p1a",
+                    "pokemon": "Dewgong",
+                    "order": 2
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Vespiquen",
+                        "action": "move",
+                        "move": "Air Slash",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Dewgong"
+                    },
+                    "order": 3
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Dewgong",
+                    "damage": "233/315",
+                    "order": 4
+                },
+                {
+                    "action": "upkeep",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "turnNum": "11",
+            "events": [
+                {
+                    "timestamp": "1707748329",
+                    "order": 1
+                },
+                {
+                    "action": "switch",
+                    "player": "p2a",
+                    "pokemon": "Cacturne",
+                    "order": 2
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Cacturne",
+                    "damage": "244/278",
+                    "order": 3
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Dewgong",
+                        "action": "move",
+                        "move": "Surf",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Cacturne"
+                    },
+                    "order": 4
+                },
+                {
+                    "action": "heal",
+                    "player": "p2a",
+                    "pokemon": "Cacturne",
+                    "heal": "278/278",
+                    "order": 5
+                },
+                {
+                    "action": "upkeep",
+                    "order": 6
+                }
+            ]
+        },
+        {
+            "turnNum": "12",
+            "events": [
+                {
+                    "timestamp": "1707748340",
+                    "order": 1
+                },
+                {
+                    "action": "switch",
+                    "player": "p1a",
+                    "pokemon": "Yanmega",
+                    "order": 2
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Cacturne",
+                        "action": "move",
+                        "move": "Leaf Storm",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Yanmega"
+                    },
+                    "order": 3
+                },
+                {
+                    "action": "resisted",
+                    "player": "p1a",
+                    "pokemon": "Yanmega",
+                    "order": 4
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Yanmega",
+                    "damage": "114/275 par",
+                    "order": 5
+                },
+                {
+                    "action": "unboost",
+                    "player": "p2a",
+                    "pokemon": "Cacturne",
+                    "unboost": "spa",
+                    "order": 6
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Cacturne",
+                    "damage": "251/278",
+                    "order": 7
+                },
+                {
+                    "action": "upkeep",
+                    "order": 8
+                }
+            ]
+        },
+        {
+            "turnNum": "13",
+            "events": [
+                {
+                    "timestamp": "1707748351",
+                    "order": 1
+                },
+                {
+                    "action": "switch",
+                    "player": "p1a",
+                    "pokemon": "Terrakion",
+                    "order": 2
+                },
+                {
+                    "action": "status",
+                    "player": "p1a",
+                    "pokemon": "Terrakion",
+                    "status": "psn",
+                    "order": 3
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Cacturne",
+                        "action": "move",
+                        "move": "Sucker Punch",
+                        "targetPlayer": "[still]",
+                        "targetPokemon": null
+                    },
+                    "order": 4
+                },
+                {
+                    "action": "other",
+                    "other": "p2a: Cacturne",
+                    "order": 5
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Terrakion",
+                    "damage": "239/273 psn",
+                    "order": 6
+                },
+                {
+                    "action": "upkeep",
+                    "order": 7
+                }
+            ]
+        },
+        {
+            "turnNum": "14",
+            "events": [
+                {
+                    "timestamp": "1707748366",
+                    "order": 1
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Terrakion",
+                        "action": "move",
+                        "move": "Earthquake",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Cacturne"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "resisted",
+                    "player": "p2a",
+                    "pokemon": "Cacturne",
+                    "order": 3
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Cacturne",
+                    "damage": "195/278",
+                    "order": 4
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Terrakion",
+                    "damage": "212/273 psn",
+                    "order": 5
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Cacturne",
+                        "action": "move",
+                        "move": "Leaf Storm",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Terrakion"
+                    },
+                    "order": 6
+                },
+                {
+                    "action": "other",
+                    "other": "p1a: Terrakion",
+                    "order": 7
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Terrakion",
+                    "damage": "0 fnt",
+                    "order": 8
+                },
+                {
+                    "action": "unboost",
+                    "player": "p2a",
+                    "pokemon": "Cacturne",
+                    "unboost": "spa",
+                    "order": 9
+                },
+                {
+                    "action": "faint",
+                    "player": "p1a",
+                    "pokemon": "Terrakion",
+                    "order": 10
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Cacturne",
+                    "damage": "168/278",
+                    "order": 11
+                },
+                {
+                    "action": "upkeep",
+                    "order": 12
+                },
+                {
+                    "timestamp": "1707748380",
+                    "order": 13
+                },
+                {
+                    "action": "switch",
+                    "player": "p1a",
+                    "pokemon": "Ceruledge",
+                    "order": 14
+                }
+            ]
+        },
+        {
+            "turnNum": "15",
+            "events": [
+                {
+                    "timestamp": "1707748399",
+                    "order": 1
+                },
+                {
+                    "action": "switch",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "order": 2
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "damage": "33/246",
+                    "order": 3
+                },
+                {
+                    "action": "ability",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "ability": "Intimidate",
+                    "order": 4
+                },
+                {
+                    "action": "unboost",
+                    "player": "p1a",
+                    "pokemon": "Ceruledge",
+                    "unboost": "atk",
+                    "order": 5
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Ceruledge",
+                        "action": "move",
+                        "move": "Close Combat",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Arbok"
+                    },
+                    "order": 6
+                },
+                {
+                    "action": "resisted",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "order": 7
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "damage": "0 fnt",
+                    "order": 8
+                },
+                {
+                    "action": "unboost",
+                    "player": "p1a",
+                    "pokemon": "Ceruledge",
+                    "unboost": "def",
+                    "order": 9
+                },
+                {
+                    "action": "unboost",
+                    "player": "p1a",
+                    "pokemon": "Ceruledge",
+                    "unboost": "spd",
+                    "order": 10
+                },
+                {
+                    "action": "faint",
+                    "player": "p2a",
+                    "pokemon": "Arbok",
+                    "order": 11
+                },
+                {
+                    "action": "upkeep",
+                    "order": 12
+                },
+                {
+                    "timestamp": "1707748408",
+                    "order": 13
+                },
+                {
+                    "action": "switch",
+                    "player": "p2a",
+                    "pokemon": "Drifblim",
+                    "order": 14
+                }
+            ]
+        },
+        {
+            "turnNum": "16",
+            "events": [
+                {
+                    "timestamp": "1707748417",
+                    "order": 1
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Drifblim",
+                        "action": "move",
+                        "move": "Shadow Ball",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Ceruledge"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "other",
+                    "other": "p1a: Ceruledge",
+                    "order": 3
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Ceruledge",
+                    "damage": "0 fnt",
+                    "order": 4
+                },
+                {
+                    "action": "faint",
+                    "player": "p1a",
+                    "pokemon": "Ceruledge",
+                    "order": 5
+                },
+                {
+                    "action": "upkeep",
+                    "order": 6
+                },
+                {
+                    "timestamp": "1707748426",
+                    "order": 7
+                },
+                {
+                    "action": "switch",
+                    "player": "p1a",
+                    "pokemon": "Yanmega",
+                    "order": 8
+                }
+            ]
+        },
+        {
+            "turnNum": "17",
+            "events": [
+                {
+                    "timestamp": "1707748438",
+                    "order": 1
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Drifblim",
+                        "action": "move",
+                        "move": "Shadow Ball",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Yanmega"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Yanmega",
+                    "damage": "0 fnt",
+                    "order": 3
+                },
+                {
+                    "action": "faint",
+                    "player": "p1a",
+                    "pokemon": "Yanmega",
+                    "order": 4
+                },
+                {
+                    "action": "upkeep",
+                    "order": 5
+                },
+                {
+                    "timestamp": "1707748444",
+                    "order": 6
+                },
+                {
+                    "action": "switch",
+                    "player": "p1a",
+                    "pokemon": "Dewgong",
+                    "order": 7
+                }
+            ]
+        },
+        {
+            "turnNum": "18",
+            "events": [
+                {
+                    "timestamp": "1707748449",
+                    "order": 1
+                },
+                {
+                    "action": "switch",
+                    "player": "p2a",
+                    "pokemon": "Darkrai",
+                    "order": 2
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Darkrai",
+                    "damage": "203/231",
+                    "order": 3
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Dewgong",
+                        "action": "move",
+                        "move": "Ice Beam",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Darkrai"
+                    },
+                    "order": 4
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Darkrai",
+                    "damage": "112/231",
+                    "order": 5
+                },
+                {
+                    "action": "heal",
+                    "player": "p2a",
+                    "pokemon": "Darkrai",
+                    "heal": "126/231",
+                    "order": 6
+                },
+                {
+                    "action": "upkeep",
+                    "order": 7
+                }
+            ]
+        },
+        {
+            "turnNum": "19",
+            "events": [
+                {
+                    "timestamp": "1707748459",
+                    "order": 1
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Darkrai",
+                        "action": "move",
+                        "move": "Dark Pulse",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Dewgong"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Dewgong",
+                    "damage": "149/315",
+                    "order": 3
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Dewgong",
+                        "action": "move",
+                        "move": "Ice Beam",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Darkrai"
+                    },
+                    "order": 4
+                },
+                {
+                    "action": "other",
+                    "other": "p2a: Darkrai",
+                    "order": 5
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Darkrai",
+                    "damage": "0 fnt",
+                    "order": 6
+                },
+                {
+                    "action": "faint",
+                    "player": "p2a",
+                    "pokemon": "Darkrai",
+                    "order": 7
+                },
+                {
+                    "action": "upkeep",
+                    "order": 8
+                },
+                {
+                    "timestamp": "1707748464",
+                    "order": 9
+                },
+                {
+                    "action": "switch",
+                    "player": "p2a",
+                    "pokemon": "Cacturne",
+                    "order": 10
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Cacturne",
+                    "damage": "134/278",
+                    "order": 11
+                }
+            ]
+        },
+        {
+            "turnNum": "20",
+            "events": [
+                {
+                    "timestamp": "1707748471",
+                    "order": 1
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Dewgong",
+                        "action": "move",
+                        "move": "Ice Beam",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Cacturne"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "other",
+                    "other": "p2a: Cacturne",
+                    "order": 3
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Cacturne",
+                    "damage": "0 fnt",
+                    "order": 4
+                },
+                {
+                    "action": "faint",
+                    "player": "p2a",
+                    "pokemon": "Cacturne",
+                    "order": 5
+                },
+                {
+                    "action": "upkeep",
+                    "order": 6
+                },
+                {
+                    "timestamp": "1707748476",
+                    "order": 7
+                },
+                {
+                    "action": "switch",
+                    "player": "p2a",
+                    "pokemon": "Drifblim",
+                    "order": 8
+                }
+            ]
+        },
+        {
+            "turnNum": "21",
+            "events": [
+                {
+                    "timestamp": "1707748484",
+                    "order": 1
+                },
+                {
+                    "action": "terastallize",
+                    "player": "p2a",
+                    "pokemon": "Drifblim",
+                    "move": "Ghost",
+                    "order": 2
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Drifblim",
+                        "action": "move",
+                        "move": "Shadow Ball",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Dewgong"
+                    },
+                    "order": 3
+                },
+                {
+                    "action": "other",
+                    "other": "p1a: Dewgong",
+                    "order": 4
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Dewgong",
+                    "damage": "11/315",
+                    "order": 5
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Dewgong",
+                        "action": "move",
+                        "move": "Knock Off",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Drifblim"
+                    },
+                    "order": 6
+                },
+                {
+                    "action": "other",
+                    "other": "p2a: Drifblim",
+                    "order": 7
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Drifblim",
+                    "damage": "196/398",
+                    "order": 8
+                },
+                {
+                    "action": "other",
+                    "other": "p2a: Drifblim",
+                    "order": 9
+                },
+                {
+                    "action": "upkeep",
+                    "order": 10
+                }
+            ]
+        },
+        {
+            "turnNum": "22",
+            "events": [
+                {
+                    "timestamp": "1707748498",
+                    "order": 1
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Drifblim",
+                        "action": "move",
+                        "move": "Shadow Ball",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Dewgong"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Dewgong",
+                    "damage": "0 fnt",
+                    "order": 3
+                },
+                {
+                    "action": "faint",
+                    "player": "p1a",
+                    "pokemon": "Dewgong",
+                    "order": 4
+                },
+                {
+                    "action": "upkeep",
+                    "order": 5
+                },
+                {
+                    "timestamp": "1707748504",
+                    "order": 6
+                },
+                {
+                    "action": "switch",
+                    "player": "p1a",
+                    "pokemon": "Latias",
+                    "order": 7
+                }
+            ]
+        },
+        {
+            "turnNum": "23",
+            "events": [
+                {
+                    "timestamp": "1707748534",
+                    "order": 1
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Latias",
+                        "action": "move",
+                        "move": "Calm Mind",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Latias"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "boost",
+                    "player": "p1a",
+                    "pokemon": "Latias",
+                    "boost": "spa",
+                    "order": 3
+                },
+                {
+                    "action": "boost",
+                    "player": "p1a",
+                    "pokemon": "Latias",
+                    "boost": "spd",
+                    "order": 4
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Drifblim",
+                        "action": "move",
+                        "move": "Shadow Ball",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Latias"
+                    },
+                    "order": 5
+                },
+                {
+                    "action": "other",
+                    "other": "p1a: Latias",
+                    "order": 6
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Latias",
+                    "damage": "124/256",
+                    "order": 7
+                },
+                {
+                    "action": "unboost",
+                    "player": "p1a",
+                    "pokemon": "Latias",
+                    "unboost": "spd",
+                    "order": 8
+                },
+                {
+                    "action": "upkeep",
+                    "order": 9
+                }
+            ]
+        },
+        {
+            "turnNum": "24",
+            "events": [
+                {
+                    "timestamp": "1707748544",
+                    "order": 1
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Latias",
+                        "action": "move",
+                        "move": "Draco Meteor",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Drifblim"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Drifblim",
+                    "damage": "0 fnt",
+                    "order": 3
+                },
+                {
+                    "action": "unboost",
+                    "player": "p1a",
+                    "pokemon": "Latias",
+                    "unboost": "spa",
+                    "order": 4
+                },
+                {
+                    "action": "faint",
+                    "player": "p2a",
+                    "pokemon": "Drifblim",
+                    "order": 5
+                },
+                {
+                    "action": "upkeep",
+                    "order": 6
+                },
+                {
+                    "timestamp": "1707748548",
+                    "order": 7
+                },
+                {
+                    "action": "switch",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "order": 8
+                }
+            ]
+        },
+        {
+            "turnNum": "25",
+            "events": [
+                {
+                    "timestamp": "1707748555",
+                    "order": 1
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Illumise",
+                        "action": "move",
+                        "move": "Thunder Wave",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Latias"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "status",
+                    "player": "p1a",
+                    "pokemon": "Latias",
+                    "status": "par",
+                    "order": 3
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Latias",
+                        "action": "move",
+                        "move": "Draco Meteor",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Illumise"
+                    },
+                    "order": 4
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "damage": "87/269",
+                    "order": 5
+                },
+                {
+                    "action": "unboost",
+                    "player": "p1a",
+                    "pokemon": "Latias",
+                    "unboost": "spa",
+                    "order": 6
+                },
+                {
+                    "action": "upkeep",
+                    "order": 7
+                }
+            ]
+        },
+        {
+            "turnNum": "26",
+            "events": [
+                {
+                    "timestamp": "1707748566",
+                    "order": 1
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Illumise",
+                        "action": "move",
+                        "move": "Roost",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Illumise"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "heal",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "heal": "222/269",
+                    "order": 3
+                },
+                {
+                    "action": "singleTurn",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "move": "move: Roost",
+                    "order": 4
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Latias",
+                        "action": "move",
+                        "move": "Psyshock",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Illumise"
+                    },
+                    "order": 5
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "damage": "177/269",
+                    "order": 6
+                },
+                {
+                    "action": "upkeep",
+                    "order": 7
+                }
+            ]
+        },
+        {
+            "turnNum": "27",
+            "events": [
+                {
+                    "timestamp": "1707748574",
+                    "order": 1
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Illumise",
+                        "action": "move",
+                        "move": "Roost",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Illumise"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "heal",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "heal": "269/269",
+                    "order": 3
+                },
+                {
+                    "action": "singleTurn",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "move": "move: Roost",
+                    "order": 4
+                },
+                {
+                    "secondMove": {
+                        "usingPlayer": "p1a",
+                        "usingPokemon": "Latias",
+                        "action": "move",
+                        "move": "Aura Sphere",
+                        "targetPlayer": "p2a",
+                        "targetPokemon": "Illumise"
+                    },
+                    "order": 5
+                },
+                {
+                    "action": "resisted",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "order": 6
+                },
+                {
+                    "action": "damage",
+                    "player": "p2a",
+                    "pokemon": "Illumise",
+                    "damage": "260/269",
+                    "order": 7
+                },
+                {
+                    "action": "upkeep",
+                    "order": 8
+                }
+            ]
+        },
+        {
+            "turnNum": "28",
+            "events": [
+                {
+                    "timestamp": "1707748584",
+                    "order": 1
+                },
+                {
+                    "firstMove": {
+                        "usingPlayer": "p2a",
+                        "usingPokemon": "Illumise",
+                        "action": "move",
+                        "move": "Bug Buzz",
+                        "targetPlayer": "p1a",
+                        "targetPokemon": "Latias"
+                    },
+                    "order": 2
+                },
+                {
+                    "action": "other",
+                    "other": "p1a: Latias",
+                    "order": 3
+                },
+                {
+                    "action": "damage",
+                    "player": "p1a",
+                    "pokemon": "Latias",
+                    "damage": "0 fnt",
+                    "order": 4
+                },
+                {
+                    "action": "faint",
+                    "player": "p1a",
+                    "pokemon": "Latias",
+                    "order": 5
+                },
+                {
+                    "action": "win",
+                    "player": "GODSAMYA",
+                    "order": 6
+                }
+            ]
+        }
+    ]
+}
